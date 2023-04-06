@@ -1,0 +1,1 @@
+xjc src/main/resources/schema/freemind.xsd -p io.fluent.qabox.mindmapping.freemind.model -d src/main/java

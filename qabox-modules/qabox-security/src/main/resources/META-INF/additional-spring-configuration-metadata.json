@@ -1,0 +1,9 @@
+{
+  "groups": [
+    {
+      "sourceType": "io.fluent.qabox.security.config.BoxSecurityProp",
+      "name": "box.security",
+      "type": "io.fluent.qabox.security.config.BoxSecurityProp"
+    }
+  ]
+}
