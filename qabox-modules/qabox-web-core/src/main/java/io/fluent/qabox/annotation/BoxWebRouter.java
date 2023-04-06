@@ -3,7 +3,7 @@ package io.fluent.qabox.annotation;
 
 import io.fluent.qabox.config.Comment;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import java.lang.annotation.*;
 
 
