@@ -14,7 +14,6 @@ import io.fluent.qabox.util.internal.ReflectUtil;
 import io.fluent.qabox.view.BoxFieldModel;
 import io.fluent.qabox.view.BoxModel;
 import io.fluent.qabox.view.Page;
-import jakarta.transaction.Transactional;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -25,6 +24,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+import javax.transaction.Transactional;
 import java.lang.reflect.Field;
 import java.util.*;
 

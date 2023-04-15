@@ -6,10 +6,6 @@ import io.fluent.qabox.annotation.DataProcessor;
 import io.fluent.qabox.config.Comment;
 import io.fluent.qabox.config.prop.BoxProp;
 import io.fluent.qabox.config.prop.DatabaseProp;
-import jakarta.annotation.Resource;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.PersistenceContext;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -17,6 +13,10 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.stereotype.Service;
 
 
+import javax.annotation.Resource;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;

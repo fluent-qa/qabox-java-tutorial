@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.7.5</version>
+    <version>3.0.4</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>io.fluent</groupId>
@@ -14,13 +14,15 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>qabox-extra</module>
     <module>qabox-modules</module>
     <module>qabox-intergration</module>
     <module>testing-libs</module>
     <module>qabox-basic</module>
     <module>erupts-demos</module>
-    <module>boot3-demos</module>
+    <module>qabox-codegen</module>
+    <module>fluentqa-modules</module>
+      <module>fluentqa-springboot3</module>
+    <module>fluentqa-springboot3/clients</module>
   </modules>
 
   <properties>
@@ -29,11 +31,23 @@
     <maven.compiler.target>18</maven.compiler.target>
     <maven.release.version>3.0.0-M6</maven.release.version>
     <qabox-groupId>io.fluent</qabox-groupId>
-    <spring.boot.version>2.7.2</spring.boot.version>
+    <spring.boot.version>3.0.4</spring.boot.version>
     <junit5.version>5.9.0</junit5.version>
     <spring-cloud.version>2022.0.0</spring-cloud.version>
     <testcontainers.version>1.17.6</testcontainers.version>
+    <fluentqa.version>1.0-SNAPSHOT</fluentqa.version>
   </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-bom</artifactId>
+        <version>2022.0.4</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <dependencies>
     <!-- JUnit Jupiter -->
     <dependency>
