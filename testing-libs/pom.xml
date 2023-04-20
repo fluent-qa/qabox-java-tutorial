@@ -27,6 +27,12 @@
       <artifactId>lombok</artifactId>
       <version>1.18.26</version>
     </dependency>
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>testcontainers</artifactId>
+      <version>1.18.0</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
 

@@ -14,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith({SpringExtension.class})
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+
 public class TestCaseRepositoryTest {
   @Autowired
   TestCaseRepository testCaseRepository;

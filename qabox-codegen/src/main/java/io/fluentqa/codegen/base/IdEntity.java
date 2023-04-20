@@ -1,8 +1,9 @@
 package io.fluentqa.codegen.base;
 
+import jakarta.persistence.MappedSuperclass;
 import lombok.Data;
 
-import javax.persistence.MappedSuperclass;
+
 
 @Data
 @MappedSuperclass
