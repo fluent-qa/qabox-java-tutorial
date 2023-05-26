@@ -16,7 +16,6 @@
     <module>fluentqa-agile</module>
     <module>fluentqa-entity</module>
       <module>fluentqa-api</module>
-      <module>fluentqa-seeds</module>
     <module>fluentqa-jpa-data</module>
   </modules>
 
