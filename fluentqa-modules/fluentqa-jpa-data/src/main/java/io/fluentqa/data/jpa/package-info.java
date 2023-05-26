@@ -1,0 +1,1 @@
+package io.fluentqa.data.jpa;

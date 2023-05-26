@@ -1,8 +1,0 @@
-type Query {
- customersByName (name:String): [Customer]
- customers : [Customer]
-}
-
-type Customer {
-  name : String
-}
