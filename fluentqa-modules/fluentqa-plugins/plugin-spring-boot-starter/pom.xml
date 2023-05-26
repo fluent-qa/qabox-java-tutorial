@@ -1,0 +1,24 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.admin4j</groupId>
+        <artifactId>plugin</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>plugin-spring-boot-starter</artifactId>
+    <packaging>jar</packaging>
+    <name>plugin-spring-boot-starter</name>
+    <description>plugin springboot 自动加载包</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.admin4j</groupId>
+            <artifactId>plugin-spring</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
+</project>

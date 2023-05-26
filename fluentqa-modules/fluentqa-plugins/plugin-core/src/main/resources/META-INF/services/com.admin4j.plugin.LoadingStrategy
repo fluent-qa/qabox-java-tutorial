@@ -1,0 +1,2 @@
+com.admin4j.plugin.loading.ClassPathPluginLoadingStrategy
+com.admin4j.plugin.loading.LocalPluginLoadingStrategy

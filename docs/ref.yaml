@@ -1,7 +1,8 @@
 repos:
   - https://github.com/alibaba/COLA.git
   - https://apis.how//products/web-design/
-
+  -  https://github.com/yegor256/requs.git
+  -  https://github.com/Erudika/scoold.git
 components:
   - https://github.com/alimate/errors-spring-boot-starter.git
   - https://github.com/InventivetalentDev/ReflectionHelper.git
@@ -10,3 +11,9 @@ components:
 
 data:
   - https://github.com/modood/Administrative-divisions-of-China.git
+  - https://objenesis.org
+  - https://github.com/JCTools/JCTools.git
+
+MUST:
+  - https://github.com/javalin/javalin.git
+  -

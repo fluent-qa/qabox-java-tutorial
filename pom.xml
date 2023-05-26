@@ -21,6 +21,7 @@
     <module>erupts-demos</module>
     <module>qabox-codegen</module>
     <module>fluentqa-modules</module>
+    <module>qabox-spring</module>
   </modules>
 
   <properties>
