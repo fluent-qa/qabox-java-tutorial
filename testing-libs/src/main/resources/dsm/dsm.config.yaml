@@ -1,0 +1,23 @@
+params:
+  dateFormat: MM/dd/yyyy
+result:
+  type:object
+  path: /
+  xml:
+    path: /Pet
+  filter: $self.data.status=='sold'
+  fields:
+    id:
+      dataType: int
+      xml:
+        attribute: true
+    name: string
+    status: status
+    createDate: date
+    category:
+      path: category/name
+    isPopular:
+      default: $self.data.tags.contains("Popular")
+    tags:
+      type: array
+      path: tags/name |tags/tag/name    # this is a regex expression. works for both JSON and XML

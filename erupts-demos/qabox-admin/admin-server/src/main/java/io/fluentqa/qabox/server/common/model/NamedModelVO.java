@@ -1,8 +1,7 @@
 package io.fluentqa.qabox.server.common.model;
 
 
-import org.hibernate.annotations.DynamicInsert;
-import org.hibernate.annotations.DynamicUpdate;
+import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.Where;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_field.Edit;
@@ -11,7 +10,6 @@ import xyz.erupt.annotation.sub_field.View;
 import xyz.erupt.annotation.sub_field.sub_edit.InputType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
 
-import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @Where(clause = "valid=true")

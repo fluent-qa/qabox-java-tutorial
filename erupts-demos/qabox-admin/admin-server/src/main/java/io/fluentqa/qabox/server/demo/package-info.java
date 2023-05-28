@@ -1,1 +1,0 @@
-package io.fluentqa.qabox.server.demo;

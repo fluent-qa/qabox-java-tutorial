@@ -16,7 +16,7 @@
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springboot.version>2.7.2</springboot.version>
-        <erupt.version>1.11.3</erupt.version>
+        <erupt.version>1.11.6</erupt.version>
     </properties>
 
   <dependencies>

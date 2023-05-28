@@ -1,5 +1,6 @@
 package io.fluentqa.qabox.server.common.handler;
 
+import jakarta.annotation.Resource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import xyz.erupt.annotation.fun.TagsFetchHandler;
@@ -7,7 +8,6 @@ import xyz.erupt.core.cache.EruptCache;
 import xyz.erupt.core.cache.EruptCacheLRU;
 import xyz.erupt.core.util.EruptAssert;
 
-import javax.annotation.Resource;
 import java.util.List;
 import java.util.function.Supplier;
 

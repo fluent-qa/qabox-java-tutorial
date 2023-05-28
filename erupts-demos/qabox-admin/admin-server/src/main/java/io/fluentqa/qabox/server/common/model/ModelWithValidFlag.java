@@ -1,6 +1,7 @@
 package io.fluentqa.qabox.server.common.model;
 
 
+import jakarta.persistence.MappedSuperclass;
 import lombok.Setter;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_field.Edit;
@@ -10,7 +11,6 @@ import xyz.erupt.annotation.sub_field.sub_edit.BoolType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
 import xyz.erupt.jpa.model.MetaModel;
 
-import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 /**

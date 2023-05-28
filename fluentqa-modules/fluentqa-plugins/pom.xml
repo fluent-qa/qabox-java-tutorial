@@ -1,57 +1,57 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.admin4j</groupId>
-        <artifactId>admin4j-parent</artifactId>
-        <version>0.0.5</version>
-    </parent>
-
+  <parent>
     <groupId>com.admin4j</groupId>
-    <artifactId>plugin</artifactId>
-    <version>${revision}</version>
-    <packaging>pom</packaging>
+    <artifactId>admin4j-parent</artifactId>
+    <version>0.0.5</version>
+  </parent>
 
-    <name>plugin</name>
-    <modules>
-        <module>plugin-api</module>
-        <module>plugin-core</module>
-        <module>plugin-spring</module>
-        <module>plugin-spring-boot-starter</module>
-    </modules>
+  <artifactId>plugin</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
 
-    <properties>
-        <revision>0.1.2</revision>
-    </properties>
+  <name>plugin</name>
+  <modules>
+    <module>plugin-api</module>
+    <module>plugin-core</module>
+    <module>plugin-spring</module>
+    <module>plugin-spring-boot-starter</module>
+  </modules>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.admin4j</groupId>
-                <artifactId>plugin-api</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.admin4j</groupId>
-                <artifactId>plugin-core</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.admin4j</groupId>
-                <artifactId>plugin-spring</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.admin4j</groupId>
-                <artifactId>plugin-spring-boot-starter</artifactId>
-                <version>${revision}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+  <properties>
+    <revision>0.1.2</revision>
+  </properties>
 
-    <build>
-        <plugins>
-        </plugins>
-    </build>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.admin4j</groupId>
+        <artifactId>plugin-api</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.admin4j</groupId>
+        <artifactId>plugin-core</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.admin4j</groupId>
+        <artifactId>plugin-spring</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.admin4j</groupId>
+        <artifactId>plugin-spring-boot-starter</artifactId>
+        <version>${revision}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <plugins>
+    </plugins>
+  </build>
 </project>

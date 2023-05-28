@@ -1,8 +1,9 @@
 repos:
   - https://github.com/alibaba/COLA.git
   - https://apis.how//products/web-design/
-  -  https://github.com/yegor256/requs.git
-  -  https://github.com/Erudika/scoold.git
+  - https://github.com/yegor256/requs.git
+  - https://github.com/Erudika/scoold.git
+  - https://github.com/mfatihercik/dsm.git
 components:
   - https://github.com/alimate/errors-spring-boot-starter.git
   - https://github.com/InventivetalentDev/ReflectionHelper.git
@@ -13,7 +14,17 @@ data:
   - https://github.com/modood/Administrative-divisions-of-China.git
   - https://objenesis.org
   - https://github.com/JCTools/JCTools.git
-
+  - https://github.com/perplexhub/rsql-jpa-specification.git
+  - https://github.com/bes2008/sqlhelper.git
 MUST:
   - https://github.com/javalin/javalin.git
-  -
+
+READ:
+  - https://github.com/bes2008/agileway.git
+  - https://github.com/bes2008/sqlhelper.git
+
+CI/CD:
+  - https://github.com/screwdriver-cd/ui
+
+data-structure:
+  - https://github.com/Scalified/tree

@@ -1,6 +1,7 @@
 package io.fluentqa.qabox.server.common.model;
 
 
+import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import org.hibernate.annotations.Where;
@@ -12,7 +13,6 @@ import xyz.erupt.annotation.sub_field.sub_edit.BoolType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
 import xyz.erupt.jpa.model.MetaModelVo;
 
-import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @DynamicUpdate
