@@ -1,12 +1,9 @@
 package io.fluentqa.codegen.database.enums;
 
 /**
- * SdColumn数据类型的模式
- *
- * @author <a href="http://mirrentools.org">Mirren</a>
  *
  */
-public enum SdTypeMode {
+public enum DatabaseTypeEnum {
 	/** common通用数据库数据类型,该类型最低级会被其他类型覆盖 */
 	COMMON,
 	/** Java数据类型 */

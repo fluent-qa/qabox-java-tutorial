@@ -22,9 +22,18 @@ MUST:
 READ:
   - https://github.com/bes2008/agileway.git
   - https://github.com/bes2008/sqlhelper.git
-
+  -  https://gitee.com/anyline/anyline.git
+  - https://gitee.com/clougence/hasor.git
+  - https://github.com/antelopesystems/crud-framework
+  - https://github.com/google/it-cert-automation-practice
+  - https://github.com/MaterializeInc/materialize
+  - https://github.com/wgzhao/Addax.git
+  -  https://github.com/wgzhao/addax-ui
 CI/CD:
   - https://github.com/screwdriver-cd/ui
 
 data-structure:
   - https://github.com/Scalified/tree
+
+mindmap:
+  - https://github.com/mindolph/Mindolph

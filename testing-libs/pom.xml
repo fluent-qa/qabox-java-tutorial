@@ -18,6 +18,11 @@
       <version>1.0.4</version>
     </dependency>
     <dependency>
+      <groupId>com.github.alexdlaird</groupId>
+      <artifactId>java-ngrok</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.instancio</groupId>
       <artifactId>instancio-core</artifactId>
       <version>2.12.1</version>

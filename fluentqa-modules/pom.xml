@@ -19,7 +19,6 @@
     <module>fluentqa-jpa-data</module>
     <module>sql-dumper</module>
     <module>fluentqa-concurrent</module>
-    <module>fluentqa-plugins</module>
   </modules>
 
 

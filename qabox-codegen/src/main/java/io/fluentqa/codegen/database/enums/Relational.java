@@ -3,7 +3,6 @@ package io.fluentqa.codegen.database.enums;
 /**
  * 关系类型
  *
- * @author <a href="http://mirrentools.org">Mirren</a>
  *
  */
 public enum Relational {
